@@ -5,7 +5,11 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #fcbf14; */
+  /* background: linear-gradient(to bottom, #fcbf14, #fdcc43); */
 }
 
 * {
@@ -17,6 +21,10 @@ header {
   text-align: center;
   font-size: 30px;
   padding: 2%;
+  font-family: "Arial Black";
+  /* background-color: #32396d; */
+  background-color: #183249;
+  color: white;
 }
 
 .formBusca {
@@ -36,7 +44,13 @@ header {
   margin-right: 20%; */
 }
 
+p {
+  color: #32396d;
+}
+
 footer {
   text-align: center;
   padding: 2%;
+  background-color: #183249;
+  color: white;
 }
